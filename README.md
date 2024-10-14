@@ -1,7 +1,8 @@
 # Employee API
 
 NodeJS/Express Employee API to MongoDB Atlas
-Use API Key Authentication
+
+Uses API Key Authentication
 
 ## Find All Employees
 
