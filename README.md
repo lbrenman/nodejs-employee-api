@@ -4,6 +4,16 @@ NodeJS/Express Employee API to MongoDB Atlas
 
 Uses API Key Authentication
 
+Add a .env file to your NodeJS project to contain your API Key list and MongoDB username and password
+
+```
+MONGODBUSERNAME={{MongoDB Atlas username}}
+MONGODBPASSWORD={{MongoDB Atlas password}}
+API_KEYS={{apikey1}},{{apikey2}}, ...
+```
+
+Replace the MongoDB connection string in index.js with your MongoDB connection string
+
 ## Find All Employees
 
 ```bash
